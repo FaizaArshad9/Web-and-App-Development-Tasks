@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <style>
+
+        #main {
+            background: url(./Decore.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: right;
+        }
+
+        #dots {
+            background: url(./Group\ 4.png);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: contain;
+
+        }
+
+        .navbar {
+            margin: 0px;
+            display: flex;
+            justify-content: space-between;
+            opacity: 1;
+            padding-left: 140px;
+            padding-top: 47px;
+            padding-right: 138px;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 70px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            /* background-color: aquamarine; */
+            margin: auto;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 100%;
+            letter-spacing: 0%;
+        }
+
+        .sign-up {
+            background-color: none;
+            border: 1px solid black;
+            border-radius: 5px;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 100%;
+            letter-spacing: 0%;
+        }
+
+        /* ------------hero section----- */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 140px;
+        }
+
+        .left-container {
+            position: relative;
+            z-index: 1;
+        }
+
+        .left-container h2 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-transform: uppercase;
+            color: rgba(223, 105, 81, 1);
+            margin-top: 130px;
+        }
+
+        .enjoy {}
+
+        .left-container h1 {
+            font-weight: 700;
+            font-size: 84px;
+            line-height: 89px;
+            letter-spacing: -4%;
+            color: rgba(24, 30, 75, 1);
+            margin-top: 24px;
+        }
+
+        .left-container p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: 0%;
+            margin-top: 30px;
+        }
+
+        .demo-button {
+            display: flex;
+            align-items: center;
+        }
+
+        .find-out {
+            padding: 19px 27px;
+            color: rgba(255, 255, 255, 1);
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            border: none;
+            border-radius: 10px;
+            background-color: rgba(241, 165, 1, 1);
+            text-align: center;
+        }
+
+        .play-demo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            background-color: none;
+            margin-left: 14px;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 100%;
+            letter-spacing: 0%;
+        }
+
+        .play-demo i {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 33px;
+            height: 33px;
+            border-radius: 25px;
+            color: white;
+            background-color: rgba(223, 105, 81, 1);
+        }
+
+        .right-container>img {
+            width: 690px;
+            height: 689px;
+            position: relative;
+            right: 125px;
+        }
+
+        /* --------Services------ */
+        .service-header p {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-align: center;
+        }
+
+        .service-header h1 {
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-align: center;
+            text-transform: capitalize;
+
+        }
+
+        .three-cards {
+            display: flex;
+            justify-content: center;
+            gap: 125px;
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+
+
+        .cards h1 {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-align: center;
+        }
+
+        .cards p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0%;
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .enjoy {
+            background: url(./Vector.png);
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .prominent .cards {
+            position: relative;
+            margin-top: 80px;
+            background-color: white;
+            width: 267px;
+            height: 314px;
+            border-radius: 36px;
+            box-shadow: 0px 35px 17px 0px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 1;
+        }
+
+        .prominent .img-back {
+            position: relative;
+            bottom: 60px;
+            left: -30px;
+        }
+
+        /* -----top selling-------- */
+        .destination {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 35px;
+
+        }
+
+        .country {
+            border-radius: 24px;
+            box-shadow: 0px 35px 17px 0px rgba(0, 0, 0, 0.1);
+            position: relative;
+
+
+        }
+
+        .country img {
+            width: 317px;
+            height: 327px;
+        }
+
+        .country .price {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 125%;
+            letter-spacing: 0%;
+            color: rgba(94, 98, 130, 1);
+
+
+        }
+
+        .country .day {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 125%;
+            letter-spacing: 0%;
+            color: rgba(94, 98, 130, 1);
+
+        }
+
+        .city img {
+            width: 96px;
+            height: 252px;
+            /* background-color: aqua; */
+            position: relative;
+            top: 70px;
+            right: 60px;
+            z-index: 2;
+
+
+        }
+
+        /* ------booking---- */
+
+        .travel-section {
+            display: flex;
+            justify-content: flex start;
+            align-items: center;
+            padding: 80px 120px;
+            gap: 118px;
+        }
+
+        .content {}
+
+        .tag {
+            color: #5e6282;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-align: center;
+
+        }
+
+        h1 {
+            margin-top: 15px;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-transform: capitalize;
+            color: #181e4b;
+        }
+
+        .steps {
+            margin-top: 31px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 30px;
+
+        }
+
+        .step {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 16px;
+
+        }
+
+        .icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 22px;
+            color: #fff;
+        }
+
+        .yellow {
+            background: rgba(240, 187, 31, 1);
+
+        }
+
+        .orange {
+            background: rgba(241, 90, 43, 1);
+
+        }
+
+        .blue {
+            background: rgba(0, 99, 128, 1);
+
+        }
+
+        .step h4 {
+            margin-top: 4px;
+            color: rgba(94, 98, 130, 1);
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 125%;
+            letter-spacing: 0%;
+        }
+
+        .step h4,
+        .step p {
+            margin: 0px;
+        }
+
+        .step p {
+            margin-top: 6px;
+            color: rgba(132, 130, 154, 1);
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 125%;
+            letter-spacing: 0%;
+
+        }
+
+        /* RIGHT CARD */
+        .card-wrapper {
+            position: relative;
+        }
+
+        .trip-card {
+            background: #fff;
+            border-radius: 24px;
+            padding: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .trip-card img {
+            width: 321px;
+            height: 161;
+            border-radius: 24px;
+            margin-bottom: 15px;
+        }
+
+        .shadow {
+            width: 354px;
+            height: 367px;
+            opacity: 0.5;
+            z-index: -1;
+
+
+            position: absolute;
+            bottom: 140px;
+            left: 140px;
+
+        }
+
+        .trip-card h3 {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 125%;
+            letter-spacing: 1.5%;
+
+        }
+
+        .date {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 125%;
+            letter-spacing: -0.5%;
+            color: #84829a;
+        }
+
+        .people {
+            /* font-size: 14px; */
+            color: #84829a;
+        }
+
+        .people p {
+            display: flex;
+            gap: 13px;
+            margin-top: 21px;
+
+        }
+
+        .people p i {
+            width: 36px;
+            height: 36px;
+            background-color: rgba(245, 245, 245, 1);
+            border-radius: 50px;
+            top: 12px;
+            left: 11px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+        .people h1 {
+            color: #84829a;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 125%;
+            letter-spacing: -2%;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        /* FLOATING CARD */
+        .floating-card {
+            display: flex;
+            gap: 12px;
+            position: absolute;
+            right: -120px;
+            bottom: 60px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 18px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            width: 263px;
+
+        }
+
+        .floating-left img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .floating-card small {
+            color: #84829a;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 125%;
+            letter-spacing: -3.5%;
+
+        }
+
+        .floating-card h4 {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 125%;
+            letter-spacing: -1.5%;
+            margin: 6px;
+        }
+
+        .progress {
+            height: 6px;
+            background: #e0e0e0;
+            border-radius: 6px;
+            overflow: hidden;
+            margin: 8px 0;
+        }
+
+        .progress span {
+            display: block;
+            height: 100%;
+            width: 40%;
+            background: #8a79df;
+        }
+
+        .floating-card p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 125%;
+            letter-spacing: -5.5%;
+            margin-top: 14px;
+            color: #8a79df;
+        }
+
+        /* -----teastimonial---- */
+
+
+
+        .testimonials {
+            padding: 149px 0;
+        }
+
+        .container {
+            padding-left: 140px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 144px;
+        }
+
+        /* LEFT */
+        .left {
+            /* background-color: aqua; */
+            /* max-width: 40%; */
+            padding-left: 149px 0px;
+        }
+
+        .subtitle {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-transform: uppercase;
+            color: rgba(94, 98, 130, 1);
+        }
+
+        .left h2 {
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-transform: capitalize;
+            color: rgba(20, 24, 62, 1);
+
+
+        }
+
+        /* DOTS */
+        .dots {
+            display: flex;
+            gap: 10px;
+        }
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            background: #e5e5e5;
+            border-radius: 50%;
+        }
+
+        .dot.active {
+            background: #14183e;
+        }
+
+        /* RIGHT */
+        .right {
+            position: relative;
+        }
+
+        /* COMMON CARD */
+        .card {
+            width: 400px;
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+        }
+
+        /* BACK CARD */
+        .card-back {
+            /* background-color: pink; */
+            position: absolute;
+            top: 110px;
+            left: 40px;
+            opacity: 0.3;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            z-index: -1;
+        }
+
+        /* FRONT CARD */
+        .card-front {
+            /* background-color: #8a79df; */
+            position: relative;
+            z-index: 2;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-front img {
+            position: absolute;
+            top: -30px;
+            left: -30px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .card-front p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+            letter-spacing: 0%;
+            color: rgba(94, 98, 130, 1);
+
+
+        }
+
+        .card h4 {
+            color: rgba(94, 98, 130, 1);
+            margin: 0px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 100%;
+            letter-spacing: 0%;
+
+        }
+
+        .card span {
+            margin-top: 6px;
+            color: rgba(149, 155, 170, 1);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 100%;
+            letter-spacing: 0%;
+
+        }
+
+        /* ARROWS */
+        .arrows {
+            position: absolute;
+            right: -120px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .arrows span {
+            cursor: pointer;
+            font-size: 18px;
+            color: #5e6282;
+        }
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    background: #fff;
+    padding: 80px 100px 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-brand h2 {
+    font-size: 36px;
+    color: #181e4b;
+}
+
+.footer-brand p {
+    margin-top: 20px;
+    color: #5e6282;
+    line-height: 1.6;
+}
+
+.footer-links h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #080809;
+}
+
+.footer-links a {
+    display: block;
+    margin-bottom: 12px;
+    color: #5e6282;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #181e4b;
+}
+
+.footer-app {
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.social-icons span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.footer-app p {
+    margin: 15px 0;
+    color: #5e6282;
+}
+
+.store-buttons img {
+    width: 130px;
+    margin: 5px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 60px;
+    color: #5e6282;
+    font-size: 14px;
+}
+
+    </style>
+</head>
+
+<body>
+    <section id="main">
+        <!-- ----------navbar------------->
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="./Logo.png" alt="">
+                </div>
+                <div class="nav">
+                    <a href="#">Destinations</a>
+                    <a href="#">Hotels</a>
+                    <a href="#">Flights</a>
+                    <a href="#">Bookings</a>
+                    <a href="#">login</a>
+                    <button class="sign-up">Sign Up</button>
+                    <a href="#">EN<i class="fa-solid fa-angle-down"></i></a>
+                </div>
+            </nav>
+        </header>
+        <!-- --------hero section--------->
+        <section class="container">
+            <div class="left-container">
+                <h2>Best Destinations around the world</h2>
+                <h1>Travel,<span class="enjoy">enjoy </span> <br>and live a new <br>
+                    and full life</h1>
+                <p>
+                    Built Wicket longer admire do barton vanity itself do in it. <br>
+                    Preferred to sportsmen it engrossed listening. Park gate <br>
+                    sell they west hard for the.
+                </p>
+                <div class="demo-button">
+                    <button class="find-out">Find out more </button>
+                    <button class="play-demo"><i class="fa-solid fa-play"></i>&nbsp;Play Demo</button>
+                </div>
+            </div>
+            <div class="right-container">
+                <img src="./Image.png" alt="">
+            </div>
+        </section>
+    </section>
+    <!-- -------services------- -->
+
+    <div class="Services">
+        <section id="dots">
+            <div class="service-header">
+                <p>CATEGORY</p>
+                <h1>We Offer Best Services</h1>
+            </div>
+        </section>
+        <div class="three-cards">
+            <div class="cards">
+                <img src="./Group 48.png" alt="">
+                <h1>Calculated Weather</h1>
+                <p>Built Wicket longer <br> admire do barton <br>vanity itself do in it.</p>
+            </div>
+            <div class="prominent">
+                <div class="cards">
+                    <img src=" ./Group 51.png" alt="" style=" width: 128px; height:69px;">
+                    <h1>Best Flights</h1>
+                    <p>Engrossed listening. <br> Park gate sell they <br>west hard for the.</p>
+                </div>
+                <div class="img-back"><img src="./Rectangle 157.png" alt=""></div>
+            </div>
+            <div class="cards">
+                <img src="./Group 50.png" alt="">
+                <h1>Local Events</h1>
+                <p>Barton vanity itself do <br> in it. Preferd to men it <br> engrossed listening. </p>
+            </div>
+            <div class="cards">
+                <img src="./Group 49.png" alt="">
+                <h1>Customization</h1>
+                <p>We deliver outsourced <br>aviation services for <br>military customers </p>
+            </div>
+        </div>
+    </div>
+    <!-- -------top selling------- -->
+    <div class="top-selling">
+        <div class="service-header">
+            <p>Top Selling</p>
+            <h1>Top Destinations</h1>
+        </div>
+        <div class="destination">
+            <div class="country">
+                <img src="./1.png" alt="">
+                <p class="price">Rome, Italty<span class="price">$5,42k</span></p>
+                <p class="day"><i class="fa-solid fa-location-arrow"></i>&nbsp; 10 Days Trip</p>
+                <br>
+            </div>
+            <div class="country">
+                <img src="./2.jpg" alt="">
+                <p class="price">London, UK<span class="price">$4.2k</span></p>
+                <p class="day"><i class="fa-solid fa-location-arrow"></i>&nbsp; 12 Days Trip</p>
+                <br>
+            </div>
+            <div class="country">
+                <img src="./3.png" alt="">
+                <p class="price">Full Europe<span class="price">$15k</span></p>
+                <p class="day"><i class="fa-solid fa-location-arrow"></i>&nbsp; 28 Days Trip</p>
+                <br>
+
+            </div>
+            <div class="city">
+                <img src="./spring 2.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- -----booking----- -->
+    <section class="travel-section">
+        <div class="content">
+
+            <span class="tag">Easy and Fast</span>
+
+            <h1>
+                Book Your Next Trip<br>
+                In 3 Easy Steps
+            </h1>
+            <div class="steps">
+                <div class="step">
+                    <div class="icon yellow"> <img src="./selection 1.png" alt=""></div>
+                    <div class="day">
+                        <h4>Choose Destination</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur <br>
+                            adipiscing elit. Urna, tortor tempus.</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="icon orange"><img src="./water-sport 1.png" alt=""></div>
+                    <div>
+                        <h4>Make Payment</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Urna, tortor tempus.</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="icon blue"> <img src="./taxi 1.png" alt=""></div>
+                    <div>
+                        <h4>Reach Airport on Selected Date</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Urna, tortor tempus.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card-wrapper">
+            <div class="trip-card">
+                <img src="./wrap.png" alt="Greece">
+                <div class="shadow"> <img src="./Ellipse 8.png" alt=""></div>
+
+
+                <h3>Trip To Greece</h3>
+                <p class="date">14–29 June | by Robbin joseph</p>
+
+                <div class="people">
+                    <p><i class="fa-solid fa-leaf"></i><i class="fa-regular fa-map"></i> <i
+                            class="fa-solid fa-paper-plane"></i></p>
+                    <h1><span><i class="fa-solid fa-building"></i>&nbsp;24 people going</span><span><i
+                                class="fa-regular fa-heart"></i></span></h1>
+                </div>
+
+                <div class="floating-card">
+                    <div class="floating-left">
+                        <img src="./Mask Group.png" alt="">
+
+                    </div>
+                    <div class="floating-right">
+                        <small>Ongoing</small>
+                        <h4>Trip to Rome </h4>
+                        <p>40% completed</p>
+                        <div class="progress">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------testimonial------ -->
+
+    <section class="testimonials">
+        <div class="container">
+
+            <!-- LEFT -->
+            <div class="left">
+                <span class="subtitle">TESTIMONIALS</span>
+                <h2>What People Say<br>About Us.</h2>
+
+                <div class="dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="right">
+
+                <!-- BACK CARD -->
+                <div class="card card-back">
+                    <p>
+                        “On the Windows talking painted pasture yet its <br>express parties use. Sure last upon he same
+                        as <br> knew next. Of believed or diverted no.”
+                    </p>
+                    <h4>Chris Thomas</h4>
+                    <span>CEO of Red Button</span>
+                </div>
+
+                <!-- FRONT CARD -->
+                <div class="card card-front">
+                    <img src="./man.png" alt="">
+                    <p>
+                        “On the Windows talking painted pasture yet its <br>express parties use. Sure last upon he same
+                        as <br> knew next. Of believed or diverted no.”
+                    </p>
+                    <h4>Mike Taylor</h4>
+                    <span>Lahore, Pakistan</span>
+                </div>
+
+                <!-- ARROWS -->
+                <div class="arrows">
+                    <span>▲</span>
+                    <span>▼</span>
+                </div>
+
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-container">
+
+                <!-- Logo & Text -->
+                <div class="footer-brand">
+                    <h2>Jadoo.</h2>
+                    <p>Book your trip in minute, get full<br>Control for much longer.</p>
+                </div>
+
+                <!-- Company -->
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <a href="#">About</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Mobile</a>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <a href="#">Help/FAQ</a>
+                    <a href="#">Press</a>
+                    <a href="#">Affiliates</a>
+                </div>
+
+                <!-- More -->
+                <div class="footer-links">
+                    <h4>More</h4>
+                    <a href="#">Airlinefees</a>
+                    <a href="#">Airline</a>
+                    <a href="#">Low fare tips</a>
+                </div>
+
+                <!-- App & Social -->
+                <div class="footer-app">
+                    <div class="social-icons">
+                        <span><i class="fa-brands fa-facebook-f"></i></span>
+                         <span class="instagram"><i class="fa-brands fa-instagram"></i></span>
+                        <span><i class="fa-brands fa-twitter"></i></span>
+                    </div>
+
+                    <p>Discover our app</p>
+
+                    <div class="store-buttons">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg">
+                        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg">
+                    </div>
+                </div>
+
+            </div>
+
+            <p class="copyright">All rights reserved@jadoo.co</p>
+        </footer>
+
+</body>
+
+</html>
+</body>
+
+</html>
